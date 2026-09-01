@@ -6,6 +6,28 @@
     "note": "持续记录中\n一日一画，慢慢积攒。"
   },
   "entries": [
+      {
+      "slug": "Picasso的一些临摹",
+      "title": "Picasso的一些临摹",
+      "date": "2026-09",
+      "dateLabel": "2026 年 9 月",
+      "countLabel": "9 张图",
+      "note": "临摹毕加索",
+      "cover": "images/0901001.jpg",
+      "coverAlt": "临摹",
+      "palette": "临摹 · 线条 ",
+      "images": [
+        { "src": "images/0901001.jpg", "label": "" },
+        { "src": "images/0901002.jpg", "label": "" },
+        { "src": "images/0901003.jpg", "label": "" },
+        { "src": "images/0901004.jpg", "label": "" },
+        { "src": "images/0901005.jpg", "label": "" },
+        { "src": "images/0901006.jpg", "label": "" },
+        { "src": "images/0901007.jpg", "label": "" },
+        { "src": "images/0901008.jpg", "label": "" },
+        { "src": "images/0901009.jpg", "label": "" },
+      ]
+    },
     {
       "slug": "朋友们",
       "title": "朋友们",
