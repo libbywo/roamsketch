@@ -568,7 +568,7 @@
             const homeContainer = document.getElementById('home');
             const archiveContainer = document.getElementById('archive-container');
 
-            const latestArtworks = artworks.slice(0, 3);
+            const featuredIds = [5, 3, 2];
             homeContainer.innerHTML = latestArtworks.map((item, index) => {
                 currentImageIndexes[item.id] = currentImageIndexes[item.id] || 0;
                 const activeImg = item.images[currentImageIndexes[item.id]];
