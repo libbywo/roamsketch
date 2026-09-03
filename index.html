@@ -568,7 +568,13 @@
             const homeContainer = document.getElementById('home');
             const archiveContainer = document.getElementById('archive-container');
 
-            const featuredIds = [5, 3, 2];
+            // ✅ 修改后：填入你想要展示在首页的作品 id（按你想显示的顺序排）
+            const featuredIds = [5, 2, 1]; 
+
+           // 根据 ID 匹配出对应的作品
+            const latestArtworks = featuredIds
+            .map(id => artworks.find(item => item.id === id))
+            .filter(Boolean); // 过滤掉万一填错未找到的卡片
             homeContainer.innerHTML = latestArtworks.map((item, index) => {
                 currentImageIndexes[item.id] = currentImageIndexes[item.id] || 0;
                 const activeImg = item.images[currentImageIndexes[item.id]];
